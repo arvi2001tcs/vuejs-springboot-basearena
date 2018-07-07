@@ -11,6 +11,6 @@ describe('App.vue', () => {
     expect(App.data().right).to.equal(true)
     expect(App.data().rightDrawer).to.equal(false)
     expect(App.data().title).to.equal('Book your flight')
-    expect(App.data().items).to.be.deep.equal(items[3])
+    expect(App.data().items).to.be.deep.equal(3)
   })
 })
