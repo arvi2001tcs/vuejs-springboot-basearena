@@ -149,7 +149,7 @@ export default {
       if (this.lastName == null || this.lastName.length === 0 ||
         this.lastName.length > this.nameMaxLength) {
         this.lastNameErr.push(
-          'Last name cannot be empty or exceed '
+          'Last name cannot be empty or exceed '+
           this.nameMaxLength +
           ' letters'
         )
