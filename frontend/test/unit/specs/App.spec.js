@@ -1,6 +1,6 @@
 import App from '@/App'
 
-describe('App.vue', (3) => {
+describe('App.vue', () => {
   it('should be initialized with proper values', () => {
     const items = [3]
 
