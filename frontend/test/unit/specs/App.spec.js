@@ -2,7 +2,7 @@ import App from '@/App'
 
 describe('App.vue', () => {
   it('should be initialized with proper values', () => {
-    const items = []
+    const items = [3]
 
     expect(App.data().clipped).to.equal(false)
     expect(App.data().drawer).to.equal(false)
