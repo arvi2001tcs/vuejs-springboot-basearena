@@ -100,6 +100,7 @@ describe('FlightFormDialog.vue', () => {
   })
 
   it('should call clearErrArr method when submit method is called to create without errors', () => {
+    clearErrArr()
     let APICall = sinon.stub(API, 'call').resolve({ test: 'test' })
     var wrapper = mount(FlightFormDialog, {
       propsData: {
