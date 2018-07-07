@@ -45,7 +45,7 @@ describe('Flight.vue', () => {
   })
 
   it('should set correct values to variables when closeFlightDialog method is called', () => {
-    Flight.methods.closeFlightDialog(true)
+    Flight.methods.closeFlightDialog(true,false)
     Vue.nextTick(() => {
       expect(Flight.data().actionPerformed).to.equal('added')
       expect(Flight.data().showAlert).to.equal(true)
