@@ -12,7 +12,7 @@ function call (baseUrl, reqType, relURL, params = {}) {
     }
     var reqOptions = {
       method: reqType,
-      url: baseUrl + '/api/" + relURL,
+      url: baseUrl + '/api/' + relURL,
       data: params
     }
     return axios.request(reqOptions)
